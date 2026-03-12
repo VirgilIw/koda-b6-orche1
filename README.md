@@ -23,3 +23,24 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/Node-Express-EJS-CRUD.git
 cd Node-Express-EJS-CRUD
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Run the App
+
+Make sure **MongoDB is running**, then start the server:
+
+```bash
+npm start
+```
+
+Open your browser:
+
+```
+http://localhost:3000
+```
