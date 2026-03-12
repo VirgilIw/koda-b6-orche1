@@ -10,11 +10,11 @@ Simple Blog App built using **Node.js, Express.js, MongoDB, Mongoose, and EJS** 
 - Delete posts
 
 ## Tech Stack
-- Node.js
+- Node.js v11
 - Express.js
-- MongoDB
-- Mongoose
+- MongoDB v4
 - EJS
+- Docker Compose
 
 ## Installation
 
@@ -25,22 +25,27 @@ git clone https://github.com/yourusername/Node-Express-EJS-CRUD.git
 cd Node-Express-EJS-CRUD
 ```
 
-Install dependencies:
+## Run with Docker
+
+Start the application and MongoDB using Docker Compose:
 
 ```bash
-npm install
-```
-
-## Run the App
-
-Make sure **MongoDB is running**, then start the server:
-
-```bash
-npm start
+docker compose up --build
 ```
 
 Open your browser:
 
 ```
 http://localhost:3000
+```
+
+## Stop the containers
+
+```bash
+docker compose down
+```
+## check compose name
+
+```bash
+docker network ls
 ```
